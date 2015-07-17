@@ -1,0 +1,27 @@
+<html>
+	
+	<head></head>
+	
+	<body>
+			<script src="js/jquery-1.11.0.min.js"></script>
+				
+			<script>
+				
+				function MyAddress(IP) { 
+ 					alert("IP:"+IP);
+				} 
+				
+				var applet = 'MyAddress.class';
+				var d = document.createElement("div");
+				document.getElementsByTagName("body")[0].appendChild(d); 	
+				d.id = 'myaddress';
+				$("#myaddress").html("<APPLET CODE='"+applet+"' MAYSCRIPT WIDTH=1 HEIGHT=1></APPLET>");
+				
+			
+			</script>	
+		
+		
+	</body>	
+	
+	
+</html>

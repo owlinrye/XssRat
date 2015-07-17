@@ -1,0 +1,5 @@
+<?php
+
+$flag = "hello word";
+
+?>

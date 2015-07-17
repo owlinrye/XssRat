@@ -1,0 +1,268 @@
+/* CSS Document */
+
+html{
+	padding-top: 40px;
+  	padding-bottom: 40px;
+}
+
+body{font-family:"ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+	/* background-color:#eee !important;*/
+}
+
+pre code { background: transparent; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, .lead {font-family:"ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
+
+.form-signin {
+  padding: 10px;
+  margin: 10 auto;
+
+}
+.form-activating{
+  padding: 10px;
+  margin: 10 auto;
+}
+
+.login-lable{
+	font-size: 16px;
+	text-align:right;
+	padding: 10px;
+	position: relative;
+	color:#333;
+}
+.form_field, .captcha_box{
+	margin-bottom: 10px;
+}
+.form-signin .form-signin-heading{
+ margin-bottom: 10px;
+}
+
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form_button{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#error_message{
+	display:none;	
+}
+#success_message{
+	display:none;	
+}
+.jumb{
+	padding-top:30px;
+	padding-bottom:15px;
+}
+
+.form_row{
+	padding-bottom:20px;
+}
+.form_row1{
+	padding-bottom:10px;
+}
+
+.line-sm{
+	margin-top: 8px;
+	border-top: 1px solid #eee;
+	height:8px;
+	width:100%;
+	display:block;
+	clear:both;
+}
+
+.line{
+	margin-top: 40px;
+	border-top: 1px solid #eee;
+	height:10px;
+	width:100%;
+	display:block;
+}
+.footer {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.modal_small{
+	width:300px !important;	
+}
+.modal_md{
+	width:420px !important;	
+}
+
+
+.data-container{
+	margin:10px 0;
+	border: 1px solid #cccccc;
+	-webkit-border-radius: 3px;
+  	-moz-border-radius: 3px;
+  	border-radius: 3px;
+}
+.data-container-2 {
+	border: 1px solid #cccccc;
+	-webkit-border-radius: 3px;
+  	-moz-border-radius: 3px;
+  	border-radius: 3px;
+	margin-bottom:10px;
+}
+.data-info{
+	background-color:#F4F8FA;
+	padding: 12px;
+}
+
+.data-box{
+	border-top: 1px solid #cccccc;
+	padding: 12px;
+}
+
+.collapse-control {
+	cursor:pointer;
+}
+
+.left-bt{
+	padding-right:20px;
+	margin-top:20px;
+}
+
+.collapse-down{
+	margin-top:10px;
+	margin-left:20px;
+}
+
+.left-check{
+	margin-top: 20px;
+	padding-right: 20px;
+}
+
+.category_box{
+	background-color:#F0F8FF;
+	height:634px;
+	overflow:auto;
+}
+.margintop18{
+	margin-top:18px;	
+}
+.attack_box{
+	border: 1px solid #cccccc;
+	padding:10px;
+	height: 400px;
+	-webkit-border-radius: 3px;
+  	-moz-border-radius: 3px;
+  	border-radius: 3px;
+	overflow:auto;
+}
+
+.log_box{
+	border: 1px solid #cccccc;
+	padding:10px;
+	height: 400px;
+	-webkit-border-radius: 3px;
+  	-moz-border-radius: 3px;
+  	border-radius: 3px;
+	overflow:auto;
+}
+.user_box{
+	border: 1px solid #cccccc;
+	padding:10px;
+	-webkit-border-radius: 3px;
+  	-moz-border-radius: 3px;
+  	border-radius: 3px;
+	overflow:auto;
+}
+.space15{
+	height:15px;
+	display:block;
+	clear:both;
+	width:100%;
+}
+
+.space30{
+	height:30px;
+	display:block;
+	clear:both;
+	width:100%;
+}
+
+.online{
+	color:#096;
+}
+
+.outline{
+	color:#C03;
+}
+
+.unknown{
+	color:#F60;
+}
+
+.table-pointer  tbody  tr:hover{ cursor:pointer;}
+
+#module_describe{
+	padding-top:8px;
+}
+#register_box{
+	display: block;
+	clear: both;
+	float: none;
+	width: 500px;	
+}
+#login_box{
+	display: block;
+	clear: both;
+	float: none;
+	width: 360px;
+} 
+#activating{
+	display: block;
+	clear: both;
+	float: none;
+	width: 360px;
+}
+.login_tittle{
+	font-family:"ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+	font-size:32px;
+	margin-bottom:20px;
+}
+.login_tittle span{
+	position:absolute;
+	margin-top:60px;
+}
+
+.wall-hole{
+	 background-image:url(../images/hole-in-the-wall-sm.png);
+	 background-repeat:no-repeat;
+	 background-position: 90% 96%;
+}
+
+.login-link{
+	font-size:12px;
+	font-family:"ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+
+.risk_0{
+	color:#D8D8D8;
+}
+.risk_1{
+	color:#33D25B;
+}
+.risk_2{
+	color:#8ADD1A;
+}
+.risk_3{
+	color:#FCE305;
+}
+.risk_4{
+	color:#F56005;
+}
+.risk_5{
+	color:#CE0000;
+}
+
